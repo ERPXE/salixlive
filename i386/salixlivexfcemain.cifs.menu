@@ -1,0 +1,8 @@
+LABEL SALIXLIVEXFCE32SMB
+MENU LABEL ^Salix Live XFCE - i386 (Samba)
+KERNEL er/plugins/salixlive/i386/vmlinuz
+INITRD er/plugins/salixlive/i386/initextra-xfce.xz
+APPEND root=/dev/ram0 remote=smb,10.0.0.1,erpxe/salixlive/salixlive/i386/xfce skipnetcheck
+TEXT HELP
+                 Salix Live XFCE - i386 (Samba).
+ENDTEXT

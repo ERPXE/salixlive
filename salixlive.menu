@@ -1,0 +1,20 @@
+MENU BEGIN SALIXLIVE
+MENU LABEL ^Salix Live 13.37
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/salixlive/salixlive.png
+
+MENU INCLUDE er/plugins/salixlive/i386/salixlivekdemain.cifs.menu
+MENU INCLUDE er/plugins/salixlive/x86_64/salixlivekdemain.cifs.menu
+MENU INCLUDE er/plugins/salixlive/i386/salixlivexfcemain.cifs.menu
+MENU INCLUDE er/plugins/salixlive/x86_64/salixlivexfcemain.cifs.menu
+MENU INCLUDE er/plugins/salixlive/i386/salixlivekdemain.nfs.menu
+MENU INCLUDE er/plugins/salixlive/x86_64/salixlivekdemain.nfs.menu
+MENU INCLUDE er/plugins/salixlive/i386/salixlivexfcemain.nfs.menu
+MENU INCLUDE er/plugins/salixlive/x86_64/salixlivexfcemain.nfs.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

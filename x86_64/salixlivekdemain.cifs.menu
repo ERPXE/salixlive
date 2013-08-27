@@ -1,0 +1,8 @@
+LABEL SALIXLIVEKDE64SMB
+MENU LABEL ^Salix Live KDE - x86_64 (Samba)
+KERNEL /er/plugins/salixlive/x86_64/vmlinuz
+INITRD /er/plugins/salixlive/x86_64/initextra-kde.xz
+APPEND root=/dev/ram0 remote=smb,10.0.0.1,erpxe/salixlive/x86_64/salixlivekde skipnetcheck
+TEXT HELP
+                 Salix Live KDE - x86_64 (Samba).
+ENDTEXT

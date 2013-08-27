@@ -1,0 +1,8 @@
+LABEL SALIXLIVEXFCE64NFS
+MENU LABEL ^Salix Live XFCE - x86_64 (NFS)
+KERNEL /er/plugins/salixlive/x86_64/vmlinuz
+INITRD /er/plugins/salixlive/x86_64/initextra-xfce.xz
+APPEND root=/dev/ram0 remote=nfs,10.0.0.1,/tftpboot/er/shares/x86_64/salixlivexfce skipnetcheck
+TEXT HELP
+                 Salix Live XFCE - x86_64 (NFS).
+ENDTEXT

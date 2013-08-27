@@ -1,0 +1,8 @@
+LABEL SALIXLIVEXFCE32NFS
+MENU LABEL ^Salix Live XFCE - i386 (NFS)
+KERNEL er/plugins/salixlive/i386/vmlinuz
+INITRD er/plugins/salixlive/i386/initextra-xfce.xz
+APPEND root=/dev/ram0 remote=nfs,10.0.0.1,/tftpboot/er/shares/salixlive/i386/xfce skipnetcheck
+TEXT HELP
+                 Salix Live XFCE - i386 (NFS).
+ENDTEXT
